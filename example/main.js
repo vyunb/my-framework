@@ -15,6 +15,10 @@ const mw = (req, res, next) => {
 app.use(mw);
 app.use("/api", router);
 
+app.get("/", (req, res, next) => {
+	res.end("app");
+});
+
 app.listen(3000, (err) => {
 	if (err) console.log(err);
 	console.log("working");
