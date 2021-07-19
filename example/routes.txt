@@ -1,0 +1,4 @@
+/api/users GET "get users" 
+/api/user/:id GET "" 
+/api/accounts GET "get accounts to the user" 
+/ GET "" 
